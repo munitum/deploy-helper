@@ -1,6 +1,6 @@
-docker run -d -e VIRTUAL_HOST=api.basalt.app\
-              -e LETSENCRYPT_HOST=basalt.app\
-              -e LETSENCRYPT_EMAIL=max@basalt.app\
+docker run -d -e VIRTUAL_HOST=api.stubbornapp.com\
+              -e LETSENCRYPT_HOST=stubbornapp.com\
+              -e LETSENCRYPT_EMAIL=max@stubbornapp.com\
               --network=webproxy \
-              --name basalt-api \
-              basalt-api
+              --name stubborn-api \
+              stubborn-api
